@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule "sneakershop.com" "Demo/index.php"
+
+RewriteRule "^([a-zA-Z0-9]+).html$" "?quanly=$1"
+

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.main {
+    height: 700px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 130px;
+    width: 100%;
+    border: 1px solid #333;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__list li {
+    list-style: none;
+}
+
+.menu__list li a{
+    text-decoration: none;
+    line-height: 52px;
+    color: black;
+    font-weight: 500;
+    display: block;
+}
+.container {
+    display: block;
+}
+.container_main {
+    display: flex;
+}
+
+.themsanpham {
+   width: 30%;
+}
+.lietkesp {
+    width: 70%;
+}
+
+
+.themsanpham p, .lietkesp p, .qldonhang p {
+    text-align: center;
+}
+
+.qldonhang table tr td,.qldonhang table tr th,.lietkesp table tr td ,.lietkesp table tr th ,.themsanpham table tr td {
+    border: 1px solid #000;
+}
+
+.themsanpham table tr td input {
+    width: 100%;
+}
+
+.themsanpham table tr td:last-child {
+    border: none;
+}
+
+.qldonhang {
+    width: 100%;
+}
+

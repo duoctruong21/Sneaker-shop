@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    align-items: center;
+    height: 97vh;
+    justify-content: center;
+}
+
+.login {
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+.login h2 {
+    text-align: center;
+}
+
+.username input, .password input {
+    font-size: 1rem;
+    padding: 10px;
+    min-width: 400px;
+    width: 95%;
+}
+
+.password, .submit {
+    margin-top: 10px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input{
+    padding: 10px;
+    width: 120px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
